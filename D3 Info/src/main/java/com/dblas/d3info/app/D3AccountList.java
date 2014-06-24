@@ -1,5 +1,7 @@
 package com.dblas.d3info.app;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 
 /**
@@ -7,9 +9,11 @@ import java.util.ArrayList;
  */
 public class D3AccountList {
     private ArrayList<D3Account> mAccounts;
+    private Context mAppContext;
 
-    public D3AccountList(ArrayList<D3Account> mAccounts) {
-        this.mAccounts = mAccounts;
+    public D3AccountList(ArrayList<D3Account> mAccounts)    {
+        mAppContext = mAppContext;
+        mAccounts = new ArrayList<D3Account>();
     }
 
     public ArrayList<D3Account> getmAccounts() {
