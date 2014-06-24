@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    
+
                 }
             });
             builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
